@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    height: 100px;
+    background-color: #fa402e;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.search-input{
+    height: 40px;
+    width: 450px;
+    border-radius: 4px;
+}
+.header_search--icon{
+    position:relative;
+    display:flex;
+    text-align: center;
+    padding-top:1px;
+    font-size: 25px;
+    background-color: white;
+    color:rgb(250, 64, 46);
+    height: 35px;
+    width: 35px;
+    border-radius: 8px;
+}
+.cart{
+    display: flex;
+}
+.header_cart--icon{
+    color:white;
+}
+.main{
+    margin-top: 50px;
+    background-color:#f5f5f5;
+}
+
+.sidebar{
+    position: relative;
+    background-color: white;
+    width: 190px;
+    height: 200px;
+
+}
+.sidebar--logo, .sidebar-category{
+    font-weight: bold;
+    padding-top:7px;
+}
+.sidebar-list{
+    text-align: justify;
+    list-style: none;
+}
+hr{
+    margin-top:10px;
+    width: 100px;
+}
+.main_sidebar--list nav{
+    margin: 10px;
+    cursor:pointer;
+}
+ul.product{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    position: relative;
+    top:20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+ul.product li{
+    flex-basis: 16%;
+}
+ul.product li img{
+    max-width: 100%;
+    height: auto;
+}
+.product-one{
+    background-color: white;
+
+}
+.product-two{
+    background-color: white;
+
+}
+.product-three{
+    background-color: white;
+
+}
+.product-four{
+    background-color: white;
+
+}
+.product-five{
+    background-color: white;
+
+}
+.product-name{
+    position: relative;
+    text-align: center;
+    font-weight:600;
+    
+}
+.product-price{
+    color:red;
+    margin: 20px;
+}
+.product-sold{
+    display:inline-block;
+    position:relative;
+    font-size: 14px;
+}
+.product-address{
+    text-align: right;
+    margin-right: 10px;
+    font-size:small;
+    padding-top:5px;
+}
+.product-brand{
+    text-align: left;
+    position: relative;
+    right:80px;
+    top: 25px;
+    font-size:small;
+}
+.main_end{
+    margin-top: 30px;
+    width: 100%;
+}
+.footer{
+    background-color: #f5f5f5;
+    height: auto;
+    display:flex;
+    font-size: 14px;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-weight: bold;
+}
+.content--first{
+    margin-top: 10px;
+}
+.footer_end{
+    margin-top: 0px;
+    width: 100%;}
